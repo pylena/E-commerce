@@ -19,4 +19,4 @@ ASP.NET Core Web API
  
 ## Installation
 Clone the repository: 
- git clone <repository-url>
+ git clone <https://github.com/pylena/E-commerce.git>
