@@ -1,0 +1,7 @@
+<div *ngFor="let item of cartItems">
+    <p>{{ item.name }} - ${{ item.price }} x {{ item.quantity }}</p>
+    <button (click)="removeFromCart(item.Id)">Remove</button>
+    <input type="number" [(ngModel)]="item.quantity" (change)="updateQuantity(item.productId, item.quantity)">
+  </div>
+  <button (click)="clearCart()">Clear Cart</button>
+  
