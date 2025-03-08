@@ -16,3 +16,7 @@ ASP.NET Core Web API
 - **Models:**
   - `Product`: Contains product details like name, description, price, and image.
   - `CartItem`: Contains cart item details, including product id, quantity, and price.
+ 
+## Installation
+Clone the repository: 
+ git clone <repository-url>
